@@ -1,0 +1,9 @@
+@use "mixin" as mx;
+
+// お問い合わせページの固有スタイル
+.contact-form {
+  color: pink;
+  @include mx.mq() {
+    color: skyblue;
+  }
+}

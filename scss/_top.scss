@@ -1,0 +1,11 @@
+@use "mixin" as mx;
+
+// トップページの固有スタイル
+.hero-image {
+  background-color: gold;
+}
+
+.hoge {
+  transform: translateX(50px);
+  display: flex;
+}

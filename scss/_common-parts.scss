@@ -1,0 +1,9 @@
+@use "mixin" as mx;
+
+// 共通パーツ
+.section-title {
+  font-size: mx.pxToRem(24px);
+  @include mx.mq() {
+    font-size: mx.pxToRem(32px);
+  }
+}

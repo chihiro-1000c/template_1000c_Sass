@@ -1,0 +1,7 @@
+// 各scssファイルを順番に読み込むファイル
+@use "reset";
+@use "mixin";
+@use "base";
+@use "common-parts";
+@use "top";
+@use "contact";
