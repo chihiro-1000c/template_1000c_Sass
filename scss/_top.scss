@@ -9,3 +9,8 @@
   transform: translateX(50px);
   display: flex;
 }
+
+p {
+  width: 300px;
+  @include mx.line-clamp(2);
+}
