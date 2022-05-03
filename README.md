@@ -1,4 +1,4 @@
-# template_1000c
+# template_1000c_Sass
 
 gulp など使わないプロジェクトに使う
 
